@@ -1,0 +1,91 @@
+Cmp-Mod V01 Created by PcbNew   date = Wed 10 Oct 2018 07:06:08 PM HKT
+
+BeginCmp
+TimeStamp = 5BB9B9A4
+Path = /5BB9AB71
+Reference = J1;
+ValeurCmp = Conn_01x03;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB9B9CF
+Path = /5BB9F740
+Reference = Q1;
+ValeurCmp = 2N3904;
+IdModule  = Package_TO_SOT_SMD:TSOT-23_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB9B98D
+Path = /5BB9AF92
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED_SMD:LED_0805_2012Metric_Castellated;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB9D735
+Path = /5BB9CB3F
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED_SMD:LED_0805_2012Metric_Castellated;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB9B9E0
+Path = /5BB9AC38
+Reference = R1;
+ValeurCmp = 331;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB9E09A
+Path = /5BB9ACCA
+Reference = R2;
+ValeurCmp = 103;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB9BA02
+Path = /5BB9AEAC
+Reference = R3;
+ValeurCmp = 331;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB9DFF8
+Path = /5BBA1DF9
+Reference = R4;
+ValeurCmp = 331;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB9D746
+Path = /5BB9CB39
+Reference = R5;
+ValeurCmp = 104;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB9EB70
+Path = /5BBA12F8
+Reference = J2;
+ValeurCmp = Conn_01x02;
+IdModule  = w_conn_mpt:mpt_0,5%2f2-2,54;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB9BBEE
+Path = /5BBA1217
+Reference = U1;
+ValeurCmp = S108T02;
+IdModule  = Housings_SIP:SIP4_Sharp-SSR_Pitch7.62mm_Straight;
+EndCmp
+
+EndListe
