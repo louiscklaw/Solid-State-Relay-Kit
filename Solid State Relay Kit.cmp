@@ -1,11 +1,123 @@
-Cmp-Mod V01 Created by PcbNew   date = Wed 10 Oct 2018 07:06:08 PM HKT
+Cmp-Mod V01 Created by PcbNew   date = Wed 10 Oct 2018 09:50:54 PM HKT
 
 BeginCmp
-TimeStamp = 5BB9B9A4
+TimeStamp = 5BBF8C56
+Path = /5BBE021D
+Reference = TP3;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BBF8C49
+Path = /5BBEEFC8
+Reference = TP4;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BBF67C2
+Path = /5BBEBEBD
+Reference = C1;
+ValeurCmp = 105;
+IdModule  = Capacitor_SMD:CP_Elec_4x3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BBED8FF
+Path = /5BBA12F8
+Reference = J2;
+ValeurCmp = SSR_OUTPUT1;
+IdModule  = w_conn_mpt:mpt_0,5%2f4-2,54;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BBED152
 Path = /5BB9AB71
 Reference = J1;
 ValeurCmp = Conn_01x03;
-IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BBE0AEE
+Path = /5BBE5136
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED_SMD:LED_0805_2012Metric_Castellated;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BBE0A8F
+Path = /5BBE5130
+Reference = Q2;
+ValeurCmp = 2N3904;
+IdModule  = Package_TO_SOT_SMD:TSOT-23_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BBE0A5A
+Path = /5BBE50F8
+Reference = R9;
+ValeurCmp = 680;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BBE0A49
+Path = /5BBE513C
+Reference = R8;
+ValeurCmp = 331;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BBE0A38
+Path = /5BBE5142
+Reference = R7;
+ValeurCmp = 103;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BBE09A7
+Path = /5BBE5148
+Reference = R6;
+ValeurCmp = 331;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BBE0996
+Path = /5BBE003F
+Reference = TP1;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BBE0989
+Path = /5BBE01D9
+Reference = TP2;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BBE0935
+Path = /5BBE512A
+Reference = U2;
+ValeurCmp = OMRON G3MB-202P;
+IdModule  = footprint-lib:OMRON-G3MB-202P;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BB9BBEE
+Path = /5BBA1217
+Reference = U1;
+ValeurCmp = OMRON G3MB-202P;
+IdModule  = footprint-lib:OMRON-G3MB-202P;
 EndCmp
 
 BeginCmp
@@ -60,7 +172,7 @@ BeginCmp
 TimeStamp = 5BB9DFF8
 Path = /5BBA1DF9
 Reference = R4;
-ValeurCmp = 331;
+ValeurCmp = 680;
 IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
 EndCmp
 
@@ -73,19 +185,35 @@ IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BB9EB70
-Path = /5BBA12F8
-Reference = J2;
-ValeurCmp = Conn_01x02;
-IdModule  = w_conn_mpt:mpt_0,5%2f2-2,54;
+TimeStamp = 5BC1C279
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = MountingHole:MountingHole_3.2mm_M3;
 EndCmp
 
 BeginCmp
-TimeStamp = 5BB9BBEE
-Path = /5BBA1217
-Reference = U1;
-ValeurCmp = S108T02;
-IdModule  = Housings_SIP:SIP4_Sharp-SSR_Pitch7.62mm_Straight;
+TimeStamp = 5BC1C2DE
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = MountingHole:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BC1C340
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = MountingHole:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BC1C3A2
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = MountingHole:MountingHole_3.2mm_M3;
 EndCmp
 
 EndListe
