@@ -310,7 +310,7 @@ F 3 "https://www.openhacks.com/uploadsproductos/g3mb-ssr-datasheet.pdf" H 10065 
 	1    0    0    -1  
 $EndComp
 $Comp
-L customized_Transistor_BJT:2N3904 Q1
+L taobao-transistor:2N3904(1AM) Q1
 U 1 1 5BB9F740
 P 9250 2900
 F 0 "Q1" H 9441 2946 50  0000 L CNN
